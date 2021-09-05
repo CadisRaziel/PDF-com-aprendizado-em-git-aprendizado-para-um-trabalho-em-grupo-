@@ -3,3 +3,6 @@ Dev (criaremos branch a partir da master para criação de novas funcionalidades
 Beta (depois de passar pela dev, na beta faremos toda documentação e testes, aqui dentro tera as 'candidate')
 Stable (depois de um periodo e depois de ser verificado que as branchas criadas estão todas corretas e não darão conflito, a stable nos mostra que o código
 esta pronto para ser mesclada na Master para ser colocada em produção)
+
+Estudo de organização utilizando o metódo 'Semver' o famoso semantico, para evitar conflitos entre branch's
+Vamos utilizar no projeto que vale.
