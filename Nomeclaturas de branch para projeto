@@ -1,0 +1,5 @@
+Master (vai conter o código final que passou por todos os teste e chegou na stable)
+Dev (criaremos branch a partir da master para criação de novas funcionalidades e correções de erros, aqui dentro criaremos o 'hotfix' também)
+Beta (depois de passar pela dev, na beta faremos toda documentação e testes, aqui dentro tera as 'candidate')
+Stable (depois de um periodo e depois de ser verificado que as branchas criadas estão todas corretas e não darão conflito, a stable nos mostra que o código
+esta pronto para ser mesclada na Master para ser colocada em produção)
