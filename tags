@@ -1,4 +1,4 @@
-Criando tag
+Criando tag (na mão, porém ao realizar o CI/CD elas são geradas automaticas !!
 Na sua branch que você vai mandar para o github digite assim no terminal:
 git tag v1.0.0
 
@@ -11,3 +11,22 @@ git tag -n
 
 ao entrar no github no repositório do projeto, repare que no 'realeses' tera a tag, e tambem ao ir nas branchs temos a opção de tag e la estava o projeto
 que contem a tag v1.0.0
+
+--------------
+Resumindo:
+Lista as tags: git tag -n
+Criação de Tag: git tag 'versao'
+Enviar tag ao repositório: git push --tags
+
+-----------------------------------
+
+Versionamento semantico:
+Major - Minor - Patch
+Major = Quando fazemos uma feature muito grande que vai mudar muito o sistema, que pode ter breakchange(que vai mudar o funcionamento de algo e implicar em versoes
+mais antigas)
+Minor = Quando trazemos uma nova features porém não vai ser alterado o funcionamento de algo(breakchange)
+Patch = Correção de bug
+
+2.1.0
+1 = Major
+
