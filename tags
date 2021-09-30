@@ -27,6 +27,9 @@ mais antigas)
 Minor = Quando trazemos uma nova features porém não vai ser alterado o funcionamento de algo(breakchange)
 Patch = Correção de bug
 
+Exemplo:
 2.1.0
-1 = Major
+2 = Major
+1 = Minor
+0 = Patch
 
