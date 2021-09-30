@@ -7,3 +7,7 @@ git push --tags
 
 para listar as tags digite assim no terminal:
 git tag -n
+
+
+ao entrar no github no repositório do projeto, repare que no 'realeses' tera a tag, e tambem ao ir nas branchs temos a opção de tag e la estava o projeto
+que contem a tag v1.0.0
