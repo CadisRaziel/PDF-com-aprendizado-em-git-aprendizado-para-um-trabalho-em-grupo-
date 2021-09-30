@@ -1,0 +1,9 @@
+Criando tag
+Na sua branch que você vai mandar para o github digite assim no terminal:
+git tag v1.0.0
+
+para enviar essa tag para o github digite no terminal:
+git push --tags
+
+para listar as tags digite assim no terminal:
+git tag -n
