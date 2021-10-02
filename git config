@@ -1,0 +1,16 @@
+As variáveis ​​de configuração do Git podem ser armazenadas em 3 níveis diferentes. Cada nível substitui os valores do nível anterior.
+1. Nível do sistema (aplicado a todos os usuários do sistema e todos os seus repositórios)
+
+para ver, git config --list --system(pode ser necessário sudo)
+pôr, git config --system color.ui true
+para editar o arquivo de configuração do sistema, git config --edit --system
+2. Nível global (valores específicos para você, o usuário.)
+
+ver, git config --list --global
+pôr, git config --global user.name xyz
+para editar o arquivo de configuração global, git config --edit --global
+3. Nível do repositório (específico para aquele único repositório)
+
+ver, git config --list --local
+para definir, git config --local core.ignorecase true( --localopcional)
+para editar o arquivo de configuração do repositório, git config --edit --local( --localopcional)
